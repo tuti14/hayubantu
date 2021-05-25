@@ -8,7 +8,16 @@
 
             <div class="col-xl-6 col-lg-8 col-md-9">
 
-                <div class="card o-hidden border-0 shadow-lg my-5">
+                 <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            <a href="<?php echo base_url('home/index') ?>"><i class="far fa-arrow-alt-circle-left f2-l secondary primary-hover"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card o-hidden border-0 shadow-lg my-3">
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
