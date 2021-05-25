@@ -46,7 +46,7 @@
 <span class="nav-item-text">Donasi Saya</span>
 </a>
 
-<a href=" " class="nav-item secondary primary-hover" tabindex="0">
+<a href="<?php echo base_url('fitur/view_fitur/update') ?>" class="nav-item secondary primary-hover" tabindex="0">
 <i class="fas fa-envelope "></i>
 <polygon class="fill-s1" points="10.667 13.333 5.333 13.333 3 7 8 1 13 7 10.667 13.333"/>
 <rect x="4" y="13" width="8" height="2" transform="translate(16 28) rotate(180)"/>
@@ -101,7 +101,7 @@
 <line x1="8" y1="1" x2="8" y2="8"/>
 </i>
 </span>
-<span class="tabbar-item-text warm-l2" tabindex="-1">Galang Dana</span>
+<span class="tabbar-item-text warm-l2 text-center" tabindex="-1">Galang Dana</span>
 </a>
 
 <a href="<?php echo base_url('fitur/view_fitur/donasisaya') ?>" class="tabbar-item tabbar-item-h flex-1 sans semibold warm-l1" tabindex="-1">
@@ -110,10 +110,10 @@
 <path d="M9.84335,9.69765l-.00229-.031a4.25032,4.25032,0,0,0,1.49227-3.33334v-2c0-1.20734,0-2-.66666-2.66666a2.44912,2.44912,0,0,0-2-.66667c-.60143,0-.66029.54257-1.645.64876a2.72461,2.72461,0,0,0-2.355,2.74544V6.33333A4.25032,4.25032,0,0,0,6.15894,9.66667l-.0023.03113C6.06721,10.90871,5.223,10.908,4.063,11.26685a12.9908,12.9908,0,0,0-1.56186.59426,1.99748,1.99748,0,0,0-1.16784,1.82032V14a1,1,0,0,0,1,1H13.66667a1,1,0,0,0,1-1v-.3186a1.9975,1.9975,0,0,0-1.1678-1.82031,12.99024,12.99024,0,0,0-1.56184-.59427C10.777,10.90791,9.93278,10.90862,9.84335,9.69765Z"/>
 </i>
 </span>
-<span class="tabbar-item-text warm-l2" tabindex="-1">Donasi Saya</span>
+<span class="tabbar-item-text warm-l2 text-center" tabindex="-1">Donasi Saya</span>
 </a>
 
-<a href=" " class="tabbar-item tabbar-item-h flex-1 sans semibold warm-l1" tabindex="-1">
+<a href="<?php echo base_url('fitur/view_fitur/update') ?>" class="tabbar-item tabbar-item-h flex-1 sans semibold warm-l1" tabindex="-1">
 <span class="icon" role="presentation" tabindex="-1">
 <i class="fas fa-envelope bi">
 <polyline class="fill-s1 sw-2" points="2 5.286 1 6 1 15 15 15 15 6 13.999 5.285"/>
@@ -178,7 +178,6 @@
 
 </div>
 </div>
-
 
 
 
@@ -284,7 +283,7 @@ Lainnya
 <p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Iste, eum. Repudiandae voluptates repellat sint omnis consectetur magnam cupiditate aliquid quod delectus cumque unde adipisci vel eos, amet dolore totam! Neque?</p>
 </div>
 <div class="meta f8-b f7-d flex end items-center dashes">
-<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Baca Selengkapnya<span class="icon icon-medium icon-right secondary">
+<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Lihat Selengkapnya<span class="icon icon-medium icon-right secondary">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="fill-currentcolor" focusable="false" aria-hidden="true">
 <path d="M1,4H12.59L10.29,1.71A1,1,0,0,1,11.71.29l4,4a1,1,0,0,1,0,1.41l-4,4a1,1,0,0,1-1.41-1.41L12.59,6H1A1,1,0,0,1,1,4Z"/>
 </svg>
@@ -312,7 +311,7 @@ Lainnya
 <p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Cumque, at, accusamus! Sapiente dolorum cum eius nisi. Quia quis maiores laborum, illum, unde labore doloremque accusantium, ducimus sit magni asperiores nemo?</p>
 </div>
 <div class="meta f8-b f7-d flex end items-center dashes">
-<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Baca Selengkapnya<span class="icon icon-medium icon-right secondary">
+<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Lihat Selengkapnya<span class="icon icon-medium icon-right secondary">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="fill-currentcolor" focusable="false" aria-hidden="true">
 <path d="M1,4H12.59L10.29,1.71A1,1,0,0,1,11.71.29l4,4a1,1,0,0,1,0,1.41l-4,4a1,1,0,0,1-1.41-1.41L12.59,6H1A1,1,0,0,1,1,4Z"/>
 </svg>
@@ -340,7 +339,7 @@ Lainnya
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum iure eveniet velit, porro culpa. Aliquid modi cum corporis, soluta illo fugit eius cupiditate earum beatae est ipsa vitae voluptas. Facilis.</p>
 </div>
 <div class="meta f8-b f7-d flex end items-center dashes">
-<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Baca Selengkapnya<span class="icon icon-medium icon-right secondary">
+<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Lihat Selengkapnya<span class="icon icon-medium icon-right secondary">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="fill-currentcolor" focusable="false" aria-hidden="true">
 <path d="M1,4H12.59L10.29,1.71A1,1,0,0,1,11.71.29l4,4a1,1,0,0,1,0,1.41l-4,4a1,1,0,0,1-1.41-1.41L12.59,6H1A1,1,0,0,1,1,4Z"/>
 </svg>
@@ -378,25 +377,31 @@ Lainnya
 </header>
 
 <div class="scroll scroll-medium contain-scroll" id="latest-posts">
-<article class="card card-medium entry flex flex-column">
-<a href=" " class="card-image db mb2 mb4-b loading" style="background-color:  #f7fbfb" aria-label=" ">
-<img data-src=" " alt role="presentation" class="lazyload">
+<article class="card card-medium entry flex flex-column border-0">
+<a href="" class="card-image db mb2 mb4-b loading" style="background-color: #fff3f0;" aria-label=" ">
+<img data-src="" alt role="presentation" class="lazyload">
 <noscript>
-<img src=" " alt role="presentation">
+<img src="" alt role="presentation">
 </noscript>
 </a>
 <div class="card-body flex flex-column flex-auto">
 <div class="meta f8-b f7-d flex between items-center dashes mb1 mb2-b mb3-d">
-<p class="warm">ABCD</p>
+<span class="warm">Rp. 50.000.000</span>
+<span>50 hari lagi</span>
 </div>
 <h3 class="f2-l mb1 mb2-d">
-<a href=" " class="primary secondary-hover">Judul</a>
+<a href=" " class="primary secondary-hover">Bantu Dan Lindungi Lansia Dhuafa</a>
 </h3>
 <div class="flex-auto mb2 mb3-d">
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error aperiam dicta iusto hic, temporibus corporis aliquid, repudiandae nam dolore, quae laboriosam quod provident doloribus ipsum labore perferendis nisi sed ad!</p>
 </div>
+
+<div class="progress flex-auto mb2 mb3-d">
+  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+</div>
+
 <div class="meta f8-b f7-d flex end items-center dashes">
-<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Baca Selengkapnya<span class="icon icon-medium icon-right secondary">
+<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Lihat Selengkapnya<span class="icon icon-medium icon-right secondary">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="fill-currentcolor" focusable="false" aria-hidden="true">
 <path d="M1,4H12.59L10.29,1.71A1,1,0,0,1,11.71.29l4,4a1,1,0,0,1,0,1.41l-4,4a1,1,0,0,1-1.41-1.41L12.59,6H1A1,1,0,0,1,1,4Z"/>
 </svg>
@@ -406,7 +411,7 @@ Lainnya
 </div>
 </article>
 
-<article class="card card-medium entry flex flex-column">
+<article class="card card-medium entry flex flex-column border-0">
 <a href=" " class="card-image db mb2 mb4-b loading" style="background-color:  #f7fbfb" aria-label=" ">
 <img data-src=" " alt role="presentation" class="lazyload">
 <noscript>
@@ -424,7 +429,7 @@ Lainnya
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Unde, quod debitis rerum. Impedit id, aspernatur eius corporis hic iure mollitia labore quam perspiciatis vel earum minima laboriosam, vitae modi tempore?</p>
 </div>
 <div class="meta f8-b f7-d flex end items-center dashes">
-<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Baca Selengkapnya<span class="icon icon-medium icon-right secondary">
+<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Lihat Selengkapnya<span class="icon icon-medium icon-right secondary">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="fill-currentcolor" focusable="false" aria-hidden="true">
 <path d="M1,4H12.59L10.29,1.71A1,1,0,0,1,11.71.29l4,4a1,1,0,0,1,0,1.41l-4,4a1,1,0,0,1-1.41-1.41L12.59,6H1A1,1,0,0,1,1,4Z"/>
 </svg>
@@ -434,7 +439,7 @@ Lainnya
 </div>
 </article>
 
-<article class="card card-medium entry flex flex-column">
+<article class="card card-medium entry flex flex-column border-0">
 <a href=" " class="card-image db mb2 mb4-b loading" style="background-color:  #f7fbfb" aria-label=" ">
 <img data-src=" " alt role="presentation" class="lazyload">
 <noscript>
@@ -452,7 +457,7 @@ Lainnya
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi magni praesentium, distinctio, sunt iste eligendi incidunt. Quisquam debitis autem vel perspiciatis assumenda placeat magnam illo, eligendi qui alias vitae earum.</p>
 </div>
 <div class="meta f8-b f7-d flex end items-center dashes">
-<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Baca Selengkapnya<span class="icon icon-medium icon-right secondary">
+<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Lihat Selengkapnya<span class="icon icon-medium icon-right secondary">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="fill-currentcolor" focusable="false" aria-hidden="true">
 <path d="M1,4H12.59L10.29,1.71A1,1,0,0,1,11.71.29l4,4a1,1,0,0,1,0,1.41l-4,4a1,1,0,0,1-1.41-1.41L12.59,6H1A1,1,0,0,1,1,4Z"/>
 </svg>
@@ -507,7 +512,7 @@ Lainnya
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni illum voluptates cupiditate fuga omnis deleniti nesciunt! Perferendis itaque dolore quia sequi. Non, explicabo corporis ex quasi fuga adipisci, laborum. Deserunt.</p>
 </div>
 <div class="meta f8-b f7-d flex end items-center dashes">
-<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Baca Selengkapnya<span class="icon icon-medium icon-right secondary">
+<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Lihat Selengkapnya<span class="icon icon-medium icon-right secondary">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="fill-currentcolor" focusable="false" aria-hidden="true">
 <path d="M1,4H12.59L10.29,1.71A1,1,0,0,1,11.71.29l4,4a1,1,0,0,1,0,1.41l-4,4a1,1,0,0,1-1.41-1.41L12.59,6H1A1,1,0,0,1,1,4Z"/>
 </svg>
@@ -535,7 +540,7 @@ Lainnya
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor nobis quaerat consectetur. Aperiam nobis delectus, odit cum, officia mollitia error, eos ducimus quas maiores quis assumenda consequatur laudantium, possimus.</p>
 </div>
 <div class="meta f8-b f7-d flex end items-center dashes">
-<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Baca Selengkapnya<span class="icon icon-medium icon-right secondary">
+<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Lihat Selengkapnya<span class="icon icon-medium icon-right secondary">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="fill-currentcolor" focusable="false" aria-hidden="true">
 <path d="M1,4H12.59L10.29,1.71A1,1,0,0,1,11.71.29l4,4a1,1,0,0,1,0,1.41l-4,4a1,1,0,0,1-1.41-1.41L12.59,6H1A1,1,0,0,1,1,4Z"/>
 </svg>
@@ -563,7 +568,7 @@ Lainnya
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, repudiandae alias deleniti sequi porro sit. Necessitatibus repellat debitis amet suscipit cum quo laboriosam blanditiis placeat, eaque iste sed explicabo, dicta?</p>
 </div>
 <div class="meta f8-b f7-d flex end items-center dashes">
-<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Baca Selengkapnya<span class="icon icon-medium icon-right secondary">
+<a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink">Lihat Selengkapnya<span class="icon icon-medium icon-right secondary">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="fill-currentcolor" focusable="false" aria-hidden="true">
 <path d="M1,4H12.59L10.29,1.71A1,1,0,0,1,11.71.29l4,4a1,1,0,0,1,0,1.41l-4,4a1,1,0,0,1-1.41-1.41L12.59,6H1A1,1,0,0,1,1,4Z"/>
 </svg>
@@ -616,7 +621,7 @@ Lainnya
 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab maiores alias, in asperiores, accusamus quidem reprehenderit quos animi eum modi exercitationem atque beatae et nisi qui excepturi laboriosam odio omnis.</p>
 </div>
 <div class="meta f8-b f7-d flex between items-center dashes">
-<a href=" " rel="category tag" class="warm primary-hover"><i class="fas fa-praying-hands"></i>Aamin</a>
+<a href=" " rel="category tag" class="warm primary-hover"><i class="fas fa-praying-hands mr-5"></i>Aamin</a>
 <a href=" " rel="bookmark" class="link-icon warm secondary-hover card-permalink"><i class="fas fa-share-square"></i>Bagikan
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 10" class="fill-currentcolor" focusable="false" aria-hidden="true">
 <path d="M1,4H12.59L10.29,1.71A1,1,0,0,1,11.71.29l4,4a1,1,0,0,1,0,1.41l-4,4a1,1,0,0,1-1.41-1.41L12.59,6H1A1,1,0,0,1,1,4Z"/>
@@ -701,14 +706,14 @@ Lainnya
 <section class="row row-cool row-padding items-center contain contain-medium contain-large subscribe">
 
   <div class="column m-center">
-    <h2 class="f1-l  mb2 mb5-b m-center" style="font-size: 25pt; margin-bottom: 50px;">Download Aplikasi HayuBantu!</h2>
+    <h2 class="f1-l  mb2 mb5-b m-center text-center" style="font-size: 25pt; margin-bottom: 50px;">Download Aplikasi HayuBantu!</h2>
 
   <div class="m-center mb2 mb5-b ">
         <a href=""><img src="https://assets.kitabisa.cc/images/home/btn-google-play.png" class=""  alt="..." style="width: 35%; float: left;"></a>
         <a href=""><img src="https://assets.kitabisa.cc/images/home/btn-app-store.png" class=" " alt="..." style="width: 35%; float: right;"></a>
     </div>
 
-  <div class="sans m-center secondary mb2 mb5-b" style="font-size: 15pt;">
+  <div class="sans m-center secondary mb2 mb5-b text-center" style="font-size: 15pt;">
         <a href="#"  class="primary-hover">Tentang HayuBantu</a> |
         <a href="# " class="primary-hover">Syarat Dan Ketentuan</a> |
         <a href="#" class="primary-hover">Pusat Bantuan</a> 
