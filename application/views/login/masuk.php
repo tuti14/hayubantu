@@ -26,20 +26,18 @@
                                     <div class="text-center">
                                         <h1 class="f1-l h4 text-gray-900 mb-4">Masuk</h1>
                                     </div>
-                                    <form class="user">
+                                    <form class="user" method="post">
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user sans"
-                                                id="exampleInputEmail" aria-describedby="emailHelp"
-                                                placeholder="No Telp atau Email">
+                                            <input type="text"  name="email/telp" id="email/telp" class="form-control form-control-user sans" placeholder="No Telp atau Email" autocomplete="off" value="<?= set_value('email/telp')  ?>">
                                         </div>
                                         <button type="submit" name="" class="btn btn-primary btn-user btn-block"><span class="f4-l">Daftar</span></button>
                                         <hr style="margin-top: 20px;">
                                         <h1 class="f2-l h5 text-gray-900 mb-4 text-center">Alternatif Cepat</h1>
                                         <a href=" " class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw "></i><span class="sans">Masuk Dengan Google</span>
+                                            <i class="fab fa-google fa-fw "></i><span class="sans"> Masuk Dengan Google</span>
                                         </a>
                                         <a href=" " class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i><span class="sans">Masuk Dengan Facebook</span>
+                                            <i class="fab fa-facebook-f fa-fw"></i><span class="sans"> Masuk Dengan Facebook</span>
                                         </a>
                                     </form>
                                         <hr>

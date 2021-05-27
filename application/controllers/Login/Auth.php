@@ -3,6 +3,7 @@
 
 class Auth extends CI_Controller {
 
+
     public function masuk() {
 
         $this->load->view('templates/header_home');
